@@ -1,0 +1,40 @@
+{
+  "permissions": [
+    {
+      "tag": ["none"],
+      "type": ["viewer"],
+      "country": ["ko", "en", "jp"],
+      "action": ["access", "read"]
+    },
+    {
+      "tag": ["none"],
+      "type": ["admin", "owner"],
+      "country": ["ko", "en", "jp"],
+      "action": ["access", "read", "write", "delete"]
+    },
+    {
+      "tag": ["payment"],
+      "type": ["admin"],
+      "country": ["ko", "en", "jp"],
+      "action": ["access", "read"]
+    },
+    {
+      "tag": ["payment"],
+      "type": ["owner"],
+      "country": ["ko", "en", "jp"],
+      "action": ["access", "read", "write", "delete"]
+    },
+    {
+      "tag": ["friendtalk", "alimtalk"],
+      "type": ["viewer"],
+      "country": ["ko"],
+      "action": ["access", "read"]
+    },
+    {
+      "tag": ["friendtalk", "alimtalk"],
+      "type": ["admin", "owner"],
+      "country": ["ko"],
+      "action": ["access", "read", "write", "delete"]
+    }
+  ]
+}
