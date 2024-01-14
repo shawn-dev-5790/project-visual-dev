@@ -12,8 +12,8 @@ describe('PermissionManager.has(permission)', () => {
   })
   test('When the tag is "friendtalk" or "alimtalk", access is only possible in Korea.', () => {
     expect(PermissionManager.has({ tag: 'friendtalk', type: 'owner', country: 'ko', action: 'access' })).toBe(true)
-    expect(PermissionManager.has({ tag: 'alimtalk', type: 'owner', country: 'ko', action: 'access' })).toBe(true)
     expect(PermissionManager.has({ tag: 'friendtalk', type: 'owner', country: 'en', action: 'access' })).toBe(false)
+    expect(PermissionManager.has({ tag: 'alimtalk', type: 'owner', country: 'ko', action: 'access' })).toBe(true)
     expect(PermissionManager.has({ tag: 'alimtalk', type: 'owner', country: 'jp', action: 'access' })).toBe(false)
   })
 })

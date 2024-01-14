@@ -1,0 +1,8 @@
+{
+  "namespaces": {
+    "preload": "preload",
+    "ready": "ready",
+    "watch": "watch",
+    "test": "test"
+  }
+}

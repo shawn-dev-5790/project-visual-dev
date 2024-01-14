@@ -1,4 +1,28 @@
 {
+  "namespaces": {
+    "tag": {
+      "none": "none",
+      "payment": "payment",
+      "friendtalk": "friendtalk",
+      "alimtalk": "alimtalk"
+    },
+    "type": {
+      "viewer": "viewer",
+      "admin": "admin",
+      "owner": "owner"
+    },
+    "country": {
+      "ko": "ko",
+      "en": "en",
+      "jp": "jp"
+    },
+    "action": {
+      "access": "access",
+      "read": "read",
+      "write": "write",
+      "delete": "delete"
+    }
+  },
   "permissions": [
     {
       "tag": ["none"],
