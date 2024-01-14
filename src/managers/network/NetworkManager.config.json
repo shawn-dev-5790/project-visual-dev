@@ -1,0 +1,10 @@
+{
+  "namespaces": {},
+  "common": {
+    "baseURL": "/",
+    "withCredentials": true,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
